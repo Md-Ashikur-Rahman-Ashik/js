@@ -14,3 +14,7 @@ let myAge = "18"
 // console.log(`My name is ${myName} and my age is ${myAge}`);
 
 console.log(myName.length);
+
+const url = "https://www.google.com/maps%20com"
+
+console.log(url.replace('%20', '-'))
