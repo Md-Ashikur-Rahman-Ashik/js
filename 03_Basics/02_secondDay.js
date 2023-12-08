@@ -85,8 +85,8 @@ const firstUser = {
     userName: "Ashik",
     price: 999,
     welcomeMessage: function(){
-        console.log(`${this.userName}, Welcome to website`);
-        console.log(this);
+        // console.log(`${this.userName}, Welcome to website`);
+        // console.log(this);
     }
 }
 
@@ -96,4 +96,16 @@ const firstUser = {
 
 // firstUser.welcomeMessage()
 
-console.log(this);
+// console.log(this);
+
+// function chai(){
+//     let userName = "Ashik"
+//     console.log(this.userName);
+// }
+
+// chai()
+
+const chai = function(){
+    let userName = "Ashik"
+    console.log(this.userName);
+}
