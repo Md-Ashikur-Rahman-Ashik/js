@@ -20,7 +20,7 @@ function handleObject(anyObject){
 //     price: 399
 // })
 
-const myArray = [200, 400, 100, 600]
+// const myArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){
     return getArray[1]
@@ -77,9 +77,9 @@ function addOne(num){
 
 // addTwo(5)
 
-const addTwo = function(num){
-    return num + 2
-}
+// const addTwo = function(num){
+//     return num + 2
+// }
 
 const firstUser = {
     userName: "Ashik",
@@ -105,7 +105,28 @@ const firstUser = {
 
 // chai()
 
-const chai = function(){
+// const chai = function(){
+//     let userName = "Ashik"
+//     console.log(this.userName);
+// }
+
+const chai = () => {
     let userName = "Ashik"
-    console.log(this.userName);
+    console.log(this);
 }
+
+// chai()
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// const addTwo = (num1, num2) => num1 + num2
+// const addTwo = (num1, num2) => (num1 + num2)
+const addTwo = (num1, num2) => ({userName: "Ashik"})
+
+console.log(addTwo(3, 4))
+
+// const myArray = [2, 5, 3, 7, 8]
+
+// myArray.forEach(() => {})
