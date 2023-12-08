@@ -36,7 +36,7 @@ let a = 300
 if(true){
     let a = 10
     const b = 20
-    console.log("Inner:", a);
+    // console.log("Inner:", a);
 }
 
 
@@ -46,4 +46,54 @@ if(true){
 
 function one(){
     const userName = "Ashik"
+
+    function two(){
+        const website = "Youtube"
+        console.log(userName);
+    }
+    // console.log(website);
+
+    two()
 }
+
+// one()
+
+if(true){
+    const userName = "Ashik"
+    if(userName === "Ashik"){
+        const website = " Youtube"
+        // console.log(userName + website);
+    }
+    // console.log(website);
+}
+
+// console.log(userName);
+
+// console.log(addOne(5));
+
+function addOne(num){
+    return num + 1
+}
+
+// addTwo(5)
+
+const addTwo = function(num){
+    return num + 2
+}
+
+const firstUser = {
+    userName: "Ashik",
+    price: 999,
+    welcomeMessage: function(){
+        console.log(`${this.userName}, Welcome to website`);
+        console.log(this);
+    }
+}
+
+// firstUser.welcomeMessage()
+
+// firstUser.userName = "Sam"
+
+// firstUser.welcomeMessage()
+
+console.log(this);
