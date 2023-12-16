@@ -35,7 +35,42 @@
 
 const userLoggedIn = true
 const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
 
-if ( userLoggedIn && debitCard && 2 == 2 ){
+if ( userLoggedIn && debitCard && 2 == 3 ){
     console.log("Allowed to buy course");
+}
+
+// if (loggedInFromGoogle || loggedInFromEmail){
+//     console.log("User Logged In");
+// }
+
+// const month = "Mar"
+
+// switch (month) {
+//     case "Jan":
+//         console.log("January");
+//         break;
+//     case "Feb":
+//         console.log("February");
+//         break;
+//     case "Mar":
+//         console.log("March");
+//         break;
+//     case "Apr":
+//         console.log("April");
+//         break;
+
+//     default:
+//         console.log("Default case match");
+//         break;
+// }
+
+const userEmail = []
+
+if (userEmail){
+    console.log("Got User Email");
+} else {
+    console.log("Don't have user email");
 }
