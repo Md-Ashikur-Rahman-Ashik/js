@@ -67,10 +67,31 @@ if ( userLoggedIn && debitCard && 2 == 3 ){
 //         break;
 // }
 
-const userEmail = []
+// const userEmail = []
 
-if (userEmail){
-    console.log("Got User Email");
-} else {
-    console.log("Don't have user email");
-}
+// if (userEmail){
+//     console.log("Got User Email");
+// } else {
+//     console.log("Don't have user email");
+// }
+
+// if (userEmail.length == 0){
+//     console.log("Array is empty");
+// }
+
+const emptyObject = {}
+
+// if ((Object.keys(emptyObject)).length == 0){
+//     console.log("Empty Object");
+// }
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+val1 = null ?? 10 ?? 15
+
+// console.log(val1);
+
+const iceTeaPrice = 100
+iceTeaPrice >= 80 ? console.log("More than 80"): console.log("Less than 80");
