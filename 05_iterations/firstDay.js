@@ -77,17 +77,17 @@ let index = 0
 //     console.log(`Each char is ${greet}`);    
 // }
 
-const map = new Map()
-map.set("BD", "Bangladesh")
-map.set("USA", "United States Of America")
-map.set("PS", "Palestine")
-map.set("PS", "Palestine")
+// const map = new Map()
+// map.set("BD", "Bangladesh")
+// map.set("USA", "United States Of America")
+// map.set("PS", "Palestine")
+// map.set("PS", "Palestine")
 
 // console.log(map);
 
-for (const [key, value] of map) {
-    // console.log(key, ":-", value);
-}
+// for (const [key, value] of map) {
+//     // console.log(key, ":-", value);
+// }
 
 // const myObject = {
 //     gameOne: "NFS",
@@ -112,5 +112,15 @@ for (const [key, value] of map) {
 const programming = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in programming) {
+    // console.log(programming[key]);
+}
+
+const map = new Map()
+map.set("BD", "Bangladesh")
+map.set("USA", "United States Of America")
+map.set("PS", "Palestine")
+map.set("PS", "Palestine")
+
+for (const key in map) {
     console.log(key);
 }
