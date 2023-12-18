@@ -98,19 +98,19 @@ for (const [key, value] of map) {
 //     console.log(key, ":-", value);
 // }
 
-const myObject = {
-    js: "Javascript",
-    cpp: "C++",
-    rb: "Ruby",
-    swift: "Swift By Apple"
-}
+// const myObject = {
+//     js: "Javascript",
+//     cpp: "C++",
+//     rb: "Ruby",
+//     swift: "Swift By Apple"
+// }
 
-for (const key in myObject) {
-    console.log(`${key} shortcut is for ${myObject[key]}`);
-}
+// for (const key in myObject) {
+//     console.log(`${key} shortcut is for ${myObject[key]}`);
+// }
 
 const programming = ["js", "rb", "py", "java", "cpp"]
 
 for (const key in programming) {
-    
+    console.log(key);
 }
